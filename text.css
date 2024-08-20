@@ -1,7 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script);
 
 body {
-  background: #212121;
+  background-image: url(duc.jpg);
+  background-size: cover; /* This makes the image cover the entire element */
+  background-repeat: no-repeat; /* This prevents the image from repeating */
+  background-position: center center; 
   color: white;
   font-family: 'Arial', sans-serif;
   text-align: center;
@@ -55,6 +58,9 @@ svg path.linear-1 {
 }
 
 h1 {
+  text-shadow: 2px 2px 5px #E21393;
+}
+p {
   text-shadow: 2px 2px 5px #E21393;
 }
 
